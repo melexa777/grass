@@ -3,7 +3,7 @@ MIN_PROXY_SCORE = 50  # for mining mode
 
 #########################################
 
-APPROVE_EMAIL = True  # approve email (NEEDED IMAP AND ACCESS TO EMAIL)
+APPROVE_EMAIL = False  # approve email (NEEDED IMAP AND ACCESS TO EMAIL)
 CONNECT_WALLET = True  # connect wallet (put private keys in wallets.txt)
 SEND_WALLET_APPROVE_LINK_TO_EMAIL = True  # send approve link to email
 APPROVE_WALLET_ON_EMAIL = True  # get approve link from email (NEEDED IMAP AND ACCESS TO EMAIL)
@@ -21,7 +21,7 @@ CHECK_POINTS = False  # show point for each account every nearly 10 minutes
 SHOW_LOGS_RARELY = False  # not always show info about actions to decrease pc influence
 
 # Mining mode
-MINING_MODE = True  # False - not mine grass, True - mine grass
+MINING_MODE = False  # False - not mine grass, True - mine grass
 
 # REGISTER PARAMETRS ONLY
 REGISTER_ACCOUNT_ONLY = False
